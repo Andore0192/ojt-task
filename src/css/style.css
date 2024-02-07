@@ -11,13 +11,18 @@ body {
     float: left;
     text-align: center;
     top: 50%;
-
 }
 
 .top-border {
     background: #000;
     height: 50px;
-
+}
+.top-border h1 {
+  color: white;
+  margin-top: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-indent: 20px;
 }
 
 .side-bar {
@@ -35,11 +40,12 @@ body {
 }
 
 #bigger-box {
-    /* background: lightgray; */
+    /* background: beige; */
     border: 1px solid #000;
     width: 100%;
     height: 671px;
     float: right;
+    
 }
 
 .center {
@@ -63,12 +69,17 @@ body {
     height: 270px;
 }
 .sub-button{
-    border: 1px solid #000;
+    border: 1px solid beige;
 }
 .btn{
-    background-color: aqua;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    text-align: center;
+    margin-left:5.5%;
 }
 #btn-order{
+    background-color: rgb(195, 142, 76);
     height: 100px;
     width: 300px;
 }
@@ -77,12 +88,19 @@ body {
     position: absolute;
     top: 50%;
     left: 40%;
-    font-size: 120%;
-}
-/* h1 {
-    text-indent: 2%;
+    font-size: 180%;
 }
 
-h2 {
-    text-indent: 2%;
-} */
+.total-cash{
+    height: 320px;
+    text-indent: 20px;
+}
+
+h2{
+    text-indent: 4%;
+}
+
+#btn-order{
+    color: white;
+    border-color: black;
+}
