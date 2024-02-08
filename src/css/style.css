@@ -62,7 +62,7 @@ body {
     right: 0;
 }
 
-.logo {
+.main-logo {
     top: 30%;
     right: 150%;
     width: 100%;
@@ -99,8 +99,19 @@ body {
 h2{
     text-indent: 4%;
 }
+#order-container{
+    padding: 50px;
+}
 
 #btn-order{
     color: white;
     border-color: black;
 }
+  
+.grid > img {
+    height: 100px;
+    background: red;
+    min-width: 10px;
+    margin: 10px;
+}
+  
