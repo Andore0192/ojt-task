@@ -114,3 +114,6 @@ function orderButton(){
     }
 }
 
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
